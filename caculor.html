@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input type="text" id="dauvao1" style="width: 200px">
+    <input type="text" id="dauvao2"style="width: 200px"><br><br>
+    <button onclick="Additon()"  style="width: 90px">Additon(+)</button>
+    <button onclick="Subtraction()" style="width: 90px">Subtraction(-)</button>
+    <button onclick ="Multiplication()">Munltiplication(X)</button>
+    <button value="Divison()">Division(/)</button>
+    <p id ="demo"></p>
+    <script>
+        function Additon(){
+            var dauvao1 = document.getElementById("dauvao1").value;
+            var dauvao2 = document.getElementById("dauvao2").value;
+            dauvao1 = parseFloat(dauvao1);
+            dauvao2 = parseFloat(dauvao2);
+            var Additon = dauvao1+dauvao2;
+            document.write("Kết quả phép cộng của bạn là:"+Additon);
+        }
+        function Subtraction() {
+            var dauvao1 = document.getElementById("dauvao1").value;
+            var dauvao2 = document.getElementById("dauvao2").value;
+            dauvao1 = parseFloat(dauvao1);
+            dauvao2 = parseFloat(dauvao2);
+            var Subtraction = dauvao1-dauvao2;
+            document.write("Kết quả phép trừ là:"+Subtraction);
+        }
+        function Multiplication(){
+            var dauvao1 = document.getElementById("dauvao1").value;
+            var dauvao2 = document.getElementById("dauvao2").value;
+            dauvao1 = parseFloat(dauvao1);
+            dauvao2 = parseFloat(dauvao2);
+            var Mul = dauvao1*dauvao2;
+            alert("Kết quả của bạn là:" + Mul);
+        }
+        function Divison() {
+            var dauvao1 = document.getElementById("dauvao1").value;
+            var dauvao2 = document.getElementById("dauvao2").value;
+            dauvao1 = parseFloat(dauvao1);
+            dauvao2 = parseFloat(dauvao2);
+            let Divison = dauvao1/dauvao2;
+            alert("Kết quả phép chia của bạn là:" + Divison);
+        }
+    </script>
+</form>
+</body>
+</html>
