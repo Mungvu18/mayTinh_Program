@@ -1,8 +1,9 @@
 .cell {
     width: 50px;
     height: 50px;
+    text-align: center;
 }
 table{
     width: 200px;
-    height: 300px;
+    height: 200px;
 }

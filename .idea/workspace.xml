@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5e6be4d-13b2-478e-a925-8a61caa1066e" name="Default Changelist" comment="" />
+    <list default="true" id="d5e6be4d-13b2-478e-a925-8a61caa1066e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caculornangcao.html" beforeDir="false" afterPath="$PROJECT_DIR$/caculornangcao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cell.css" beforeDir="false" afterPath="$PROJECT_DIR$/cell.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +14,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1k55aLx1DnXodm3ahRr0d8PdzpM" />
   <component name="ProjectViewState">
@@ -24,8 +31,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lyThuyet/batSuKien" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,11 +44,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604977673260</updated>
-      <workItem from="1604977674289" duration="3340000" />
+      <workItem from="1604977674289" duration="4325000" />
+      <workItem from="1604982467580" duration="207000" />
+      <workItem from="1604991443611" duration="74000" />
+      <workItem from="1605019585768" duration="1651000" />
+      <workItem from="1605057968975" duration="2577000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="741" y="95" key="FileChooserDialogImpl" timestamp="1604991515923">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="741" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604991515923" />
+    <state x="608" y="153" width="672" height="677" key="run.anything.popup" timestamp="1604982480857">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="608" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1604982480857" />
   </component>
 </project>
