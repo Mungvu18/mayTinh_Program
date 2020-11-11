@@ -10,44 +10,41 @@
     <h3>Máy tính</h3>
     <table border="1px" cellspacing="0">
         <tr>
-            <td colspan="4">
-                <input type="text" id="input" style="width: 192px;height: 50px">
+            <td colspan="4" style="height: 20px;width: 20px">
+                <input type="text" name="d" style="width: 280px;height: 50px" disabled>
             </td>
         </tr>
         <tr>
-            <td class="cell" onclick="getInput">(</td>
-            <td class="cell">)</td>
-            <td class="cell">%</td>
-            <td class="cell">AC</td>
+            <td class="cell"><input class="nut" type="text" value="(" onclick="d.value+='('"></td>
+            <td class="cell"><input class="nut" type="text" value=")" onclick="d.value+=')'"></td>
+            <td class="cell"><input class="nut" type="text" value="%" onclick="d.value+='%'"></td>
+            <td class="cell"><input class="nut" type="text" value="AC" onclick="d.value=' '"></td>
         </tr>
         <tr>
-            <td class="cell">7</td>
-            <td class="cell">8</td>
-            <td class="cell">9</td>
-            <td class="cell">/</td>
+            <td class="cell"><input class="nut" type="text" value="7" onclick="d.value+='7'"></td>
+            <td class="cell"><input class="nut" type="text" value="8" onclick="d.value+='8'"></td>
+            <td class="cell"><input class="nut" type="text" value="9" onclick="d.value+='9'"></td>
+            <td class="cell"><input class="nut" type="text" value="/" onclick="d.value+='/'"></td>
         </tr>
         <tr>
-            <td class="cell">4</td>
-            <td class="cell">5</td>
-            <td class="cell">6</td>
-            <td class="cell">x</td>
+            <td class="cell"><input class="nut" type="text" value="4" onclick="d.value+='4'"></td>
+            <td class="cell"><input class="nut" type="text" value="5" onclick="d.value+='5'"></td>
+            <td class="cell"><input class="nut" type="text" value="6" onclick="d.value+='6'"></td>
+            <td class="cell"><input class="nut" type="text" value="*" onclick="d.value+='*'"></td>
         </tr>
         <tr>
-            <td class="cell">1</td>
-            <td class="cell">2</td>
-            <td class="cell">3</td>
-            <td class="cell">-</td>
+            <td class="cell"><input class="nut" type="text" value="1" onclick="d.value+='1'"></td>
+            <td class="cell"><input class="nut" type="text" value="2" onclick="d.value+='2'"></td>
+            <td class="cell"><input class="nut" type="text" value="3" onclick="d.value+='3'"></td>
+            <td class="cell"><input class="nut" type="text" value="-" onclick="d.value+='-'"></td>
         </tr>
         <tr>
-            <td class="cell">0</td>
-            <td class="cell">.</td>
-            <td class="cell">=</td>
-            <td class="cell">+</td>
+            <td class="cell"><input class="nut" type="text" value="0" onclick="d.value+='0'"></td>
+            <td class="cell"><input class="nut" type="text" value="." onclick="d.value+='.'"></td>
+            <td class="cell"><input class="nut" type="text" value="=" onclick="d.value = eval(d.value)"></td>
+            <td class="cell"><input class="nut" type="text" value="+" onclick="d.value+='+'"></td>
         </tr>
     </table>
-    <script>
-
-    </script>
 </form>
 </body>
 </html>

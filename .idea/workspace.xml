@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lyThuyet/batSuKien" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -48,7 +48,9 @@
       <workItem from="1604982467580" duration="207000" />
       <workItem from="1604991443611" duration="74000" />
       <workItem from="1605019585768" duration="1651000" />
-      <workItem from="1605057968975" duration="2577000" />
+      <workItem from="1605057968975" duration="2956000" />
+      <workItem from="1605088737039" duration="1550000" />
+      <workItem from="1605098774788" duration="6544000" />
     </task>
     <servers />
   </component>
@@ -56,13 +58,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="741" y="95" key="FileChooserDialogImpl" timestamp="1604991515923">
+    <state x="741" y="95" key="FileChooserDialogImpl" timestamp="1605061999457">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="741" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604991515923" />
+    <state x="741" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605061999457" />
     <state x="608" y="153" width="672" height="677" key="run.anything.popup" timestamp="1604982480857">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="608" y="153" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1604982480857" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1605099133565">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605099133565" />
   </component>
 </project>
